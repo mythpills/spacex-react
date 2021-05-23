@@ -1,6 +1,6 @@
 # Space X React.
 
-## React project that uses public Space X API to load the list of rockets and display information about the all rockets in the main page.
+## React project that uses public Space X API to load the list of rockets and display information about them.
 
 Y*ou can preview the Rockets API response using `curl`*
 
