@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# React project that uses public Space X API to load the list of rockets and display information about the all rockets in the main page.
+
+Y*ou can preview the Rockets API response using `curl`*
+
+```bash
+curl --location --request GET https://api.spacexdata.com/v4/rockets | json_pp
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
