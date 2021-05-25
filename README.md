@@ -24,3 +24,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+Code analysis report
+![image](https://user-images.githubusercontent.com/11517358/119547146-a79baa80-bd8c-11eb-8a59-04ff6b73a4f0.png)
