@@ -43,6 +43,8 @@ Runs the unit test
 ### npm run e2e
 
 Runs the cypress e2e test in the browser
+![image](https://user-images.githubusercontent.com/11517358/119575398-eb071080-bdae-11eb-81a7-ec1323c04f47.png)
+
 
 ### Code analysis report
 Its a code review tool that does basic checks 
