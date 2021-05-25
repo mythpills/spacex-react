@@ -23,7 +23,7 @@ const RocketDashBoardCard = ({ rocketData }: Props) => {
       <CardBody>
         <CardTitle tag="h5">{rocketData.name}</CardTitle>
         <CardText>
-          <div className="titleText">First flight date: </div>
+          <span className="titleText">First flight date: </span>
           {rocketData.first_flight}
         </CardText>
         <BadgeComponent rocketData={rocketData} />

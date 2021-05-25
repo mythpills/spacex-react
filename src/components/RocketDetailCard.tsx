@@ -27,15 +27,15 @@ const RocketDetailCard = ({ rocketData }: Props) => {
                         <CardText>{rocketData?.description}</CardText>
                         <BadgeComponent rocketData={rocketData} />
                         <CardText>
-                            <div className="titleText">Status: </div>
+                            <span className="titleText">Status: </span>
                             {rocketData?.active ? "Yes" : "No"}
                         </CardText>
                         <CardText>
-                            <div className="titleText">First flight date: </div>
+                            <span className="titleText">First flight date: </span>
                             {rocketData?.first_flight}
                         </CardText>
                         <CardText>
-                            <div className="titleText">Cost per launch: </div>${rocketData?.cost_per_launch}
+                            <span className="titleText">Cost per launch: </span>${rocketData?.cost_per_launch}
                         </CardText>
                         <Row>
                             <Col lg={3}>
@@ -52,7 +52,6 @@ const RocketDetailCard = ({ rocketData }: Props) => {
                 </Col>
             </Row>
         </Container>
-
     )
 }
 

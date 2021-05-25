@@ -14,7 +14,7 @@ const initialState: RocketState = {
   rockets: [],
 };
 
-export default (state: RocketState = initialState, action: IAction): RocketState => {
+const rocketState = (state: RocketState = initialState, action: IAction): RocketState => {
   switch (action.type) {
     case STOREROCKETS:
       return { ...state, rockets: action.payload };
@@ -22,3 +22,5 @@ export default (state: RocketState = initialState, action: IAction): RocketState
       return state;
   }
 };
+
+export default rocketState

@@ -13,22 +13,22 @@ const DashBoard: FC = () => {
   const [errorText, setErrorText] = useState<string>("");
   const rockets = useRocket();
 
-  const getAssets = async () => {
-    setIsLoading(true);
-    try {
-      const rocketList = await fetchRockets();
-      dispatch(storeRockets(rocketList.data));
-      setShowError(false);
-    } catch (err) {
-      setShowError(true);
-      setErrorText(err.response.data);
-    } finally {
-      setIsLoading(false);
-    }
-  };
   useEffect(() => {
+    const getAssets = async () => {
+      setIsLoading(true);
+      try {
+        const rocketList = await fetchRockets();
+        dispatch(storeRockets(rocketList.data));
+        setShowError(false);
+      } catch (err) {
+        setShowError(true);
+        setErrorText(err.response.data);
+      } finally {
+        setIsLoading(false);
+      }
+    };
     getAssets();
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>

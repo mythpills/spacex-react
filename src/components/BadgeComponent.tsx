@@ -26,7 +26,7 @@ const getBadgeColor = (rocketData: IRocket) => {
 const BadgeComponent = ({ rocketData }: Props) => {
     return (
         <CardText>
-            <div className="badgeTitle">Success rate:  </div>
+            <span className="badgeTitle">Success rate:  </span>
             <Badge data-testid="badgeTest" color={getBadgeColor(rocketData)}>{rocketData.success_rate_pct}%</Badge>
         </CardText>
 
