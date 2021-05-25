@@ -37,6 +37,8 @@ You will also see any lint errors in the console.
 ### npm test
 
 Runs the unit test
+![image](https://user-images.githubusercontent.com/11517358/119577641-f1978700-bdb2-11eb-946e-510abdcd7525.png)
+
 
 ### npm run e2e
 
