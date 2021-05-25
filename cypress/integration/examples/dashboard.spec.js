@@ -11,7 +11,7 @@ describe("renders the homepage on load", () => {
 
   it("it renders the rockets", () => {
     cy.visit("/");
-    cy.get(".card").should("have.length", 4);
+    cy.get(".card img").should("have.length", 4);
   });
 
   it("it renders the rocket details", () => {
