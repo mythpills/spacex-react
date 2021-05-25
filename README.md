@@ -9,7 +9,7 @@ curl --location --request GET https://api.spacexdata.com/v4/rockets | json_pp
 ```
 
 ### Stack used
-- Typescript ( type checking, code completion, catch errors early) 
+- Typescript 
 - Reactstrap (less bloat, good documentation)
 - Axios (data fetching)
 - React 
