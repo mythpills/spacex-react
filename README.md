@@ -45,6 +45,6 @@ Runs the cypress e2e test in the browser
 
 
 ### Code analysis report
-Its a code review tool that does basic checks 
+Its a code review tool that does basic checks - https://embold.io/
 
 ![image](https://user-images.githubusercontent.com/11517358/119547146-a79baa80-bd8c-11eb-8a59-04ff6b73a4f0.png)
