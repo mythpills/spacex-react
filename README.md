@@ -20,8 +20,6 @@ curl --location --request GET https://api.spacexdata.com/v4/rockets | json_pp
 
 ![image](https://user-images.githubusercontent.com/11517358/119571732-a2992400-bda9-11eb-9eb5-7999dd3341cf.png)
 
-![image](https://user-images.githubusercontent.com/11517358/119571766-ae84e600-bda9-11eb-888d-d9127bfd72f4.png)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
